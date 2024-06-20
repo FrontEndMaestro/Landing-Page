@@ -60,3 +60,43 @@ img{
     height: 220px;
     width: 400px;
 }
+
+.container2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.offering{
+    padding: 40px;
+    display: flex;
+justify-content: center;
+    gap: 80px;
+}
+
+.img1{
+    border:10px #3882f6 ;
+    border-radius: 15px;
+    height: 150px;
+    width: 200px;
+}
+
+.heading{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.repair, .consul, .rent, .products{
+    border:1px #3882f6 ;
+    border-radius: 10px;
+}
+
+.p{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
